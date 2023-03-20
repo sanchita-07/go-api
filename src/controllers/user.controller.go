@@ -3,7 +3,7 @@ package controllers
 import (
 	"net/http"
 
-	"github.com/sanchita-07/go-api/models"
+	"github.com/sanchita-07/go-api/src/models"
 	"github.com/sanchita-07/go-api/src/services"
 
 	"github.com/gin-gonic/gin"

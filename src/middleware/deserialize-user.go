@@ -6,9 +6,9 @@ import (
 	"strings"
 
 	"github.com/gin-gonic/gin"
-	"github.com/notaryproject/notation-go/config"
-	"github.com/sanchita-07/go-api/services"
-	"github.com/sanchita-07/go-api/utils"
+	"github.com/sanchita-07/go-api/src/services"
+	"github.com/sanchita-07/go-api/src/config"
+	"github.com/sanchita-07/go-api/src/utils"
 )
 
 func DeserializeUser(userService services.UserService) gin.HandlerFunc {

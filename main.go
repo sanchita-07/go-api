@@ -2,20 +2,23 @@ package main
 
 import (
 	"context"
-	"controllers"
 	"fmt"
 	"log"
 	"net/http"
-	"routes"
 
-	"services"
+	"github.com/sanchita-07/go-api/src/controllers"
 
-	"context"
+	"github.com/sanchita-07/go-api/src/config"
+	"github.com/sanchita-07/go-api/src/routes"
 
+	"github.com/sanchita-07/go-api/src/services"
+
+	"github.com/gin-contrib/cors"
 	"github.com/gin-gonic/gin"
-	"github.com/go-redis/redis"
+	"github.com/go-redis/redis/v8"
 	"go.mongodb.org/mongo-driver/mongo"
 	"go.mongodb.org/mongo-driver/mongo/options"
+	"go.mongodb.org/mongo-driver/mongo/readpref"
 )
 
 var (

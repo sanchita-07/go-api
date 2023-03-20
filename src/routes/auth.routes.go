@@ -2,7 +2,7 @@ package routes
 
 import (
 	"github.com/gin-gonic/gin"
-	"github.com/sanchita-07/go-api/controllers"
+	"github.com/sanchita-07/go-api/src/controllers"
 	"github.com/sanchita-07/go-api/src/middleware"
 	"github.com/sanchita-07/go-api/src/services"
 )
